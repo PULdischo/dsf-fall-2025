@@ -7,13 +7,7 @@ Below are resources that can provide additional support during and after our wor
 
 ## Workshop Session Slideshows
 
-Week 1: GitHub and Getting to Know Your Computer: [Google Slides](https://docs.google.com/presentation/d/1s2ub0BxRURWum5EonvCYBr1uUdeqe8uvBMbkRq7dNlA/edit?usp=sharing)
-
-Week 2: The Web, Markdown, and Data: [Google Slides](https://docs.google.com/presentation/d/1WZE_RDo2Ajjr2nVWqx6a0neXKhFmIDhC_FpLtdYXr-Q/edit?usp=sharing)
-
-Week 3: CollectionBuilder and Local Development: [Google Slides](https://docs.google.com/presentation/d/1SkbMBuufQpu_rr3sQJf53l8HZ70N5vzGdsIMLXSt_8Q/edit?usp=sharing)
-
-Week 4: Advanced Building and Basic Computational Methods: Slides coming soon!
+Coming soon!
 
 ## Git & GitHub
 
@@ -30,12 +24,6 @@ Markdown can be used any where on GitHub and in Jekyll.
 - [Mastering Markdown GitHub Guide](https://guides.github.com/features/mastering-markdown/){:target="_blank" rel="noopener"}
 - [GitHub Markdown documentation](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax){:target="_blank" rel="noopener"}
 - [Markdown in a Minute](https://evanwill.github.io/_drafts/notes/markdown-minute.html)
-
-## Bootstrap 5
-
-[Bootstrap](https://getbootstrap.com/) is a CSS framework designed to streamline developing user interfaces for your website.
-
-[Bootstrap Icons](https://icons.getbootstrap.com/) are SVG-based icon set used to add graphics to your content.
 
 ## YAML
 

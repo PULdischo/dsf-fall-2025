@@ -4,7 +4,7 @@
 
 Digital Scholarship Foundations is a series of library workshops led by [Digital Scholarship Services (DiScho)](https://library.princeton.edu/services/digital-scholarship).
 
-Our fall program is centered around websites to develop fundamental skills necessary for successful digital projects. We’ll look under the hood of a website to demystify the anatomy of the web and explore how to build critical and sustainable projects. Participants will attend four workshops and use common digital tools and methods as they construct their own website. During these sessions we will learn about version control, metadata, web publishing, and more.
+Our fall program is centered around digital mapping to develop fundamental skills necessary for a variety of digital projects. Participants will attend four workshops where they will learn about version control, data wrangling, coding templates, web publishing, and more as they transform research into spatial data and build their own interactive map.
 
 ## Digital Scholarship at PUL
 
@@ -16,7 +16,7 @@ Want to talk about your digital project or a tool? Visit [our webpage](https://l
 
 Created by Bryan Winston, Digital Scholarship Specialist, Princeton University Library.
 
-The weekly sessions borrow from [Learn-Static](https://learn-static.github.io/). Their [modules](https://learn-static.github.io/modules/) and [templates](https://learn-static.github.io/templates/) are great for developing your own curriculum or pursuing asynchronous learning. [Evan Will's go-go gh-pages](https://evanwill.github.io/go-go-ghpages-b/) is a related project that also includes materials that have shaped this series.
+The workshop series is influenced by [Learn-Static](https://learn-static.github.io/) and [Lib-Static](https://lib-static.github.io/). Some of the series materials were previously collaboratively developed for a [DH summer institute](https://princeton-cdh.github.io/athens2025/) at the Princeton Athens Center in 2025.
 
 This website was built with the "Learn-Static Lesson Template", evanwill, 2022, https://learn-static.github.io/lesson-template/.
 
