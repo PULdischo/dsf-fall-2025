@@ -9,4 +9,4 @@ Coming soon!
 
 ## Learning Objectives
 
-## Homework
+## Next Session

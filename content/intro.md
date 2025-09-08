@@ -25,6 +25,14 @@ Digital maps require a range of digital tools and methods, which allow us here a
 
 By focusing on learning the underlying skills that ensure the success and sustainability of a digital map, we think that attendees will be better prepared to address their own research and project needs going forward.
 
+## Why Use Digital Maps with your Research
+
+Digital maps enable:
+
+- Spatial analysis
+- Representation or illustration of evidence or arguments
+- Storytelling
+
 ## Fall Schedule
 
 Session Type | Date | Title | Key Themes
