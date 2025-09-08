@@ -83,7 +83,7 @@ To create digital maps, you may need to familiarize yourself with data structure
 
 - *tabular*: Tabular data is probably what you are most comfortable with. If you have ever worked with a spreadsheet, you have worked with tabular data.
 - *key-value*: Linked data items that establish constants (the key) and variables (the value).
-- *tree-like*: Nested data that branches out from nodes to maintain hierarchal relationships of data. Think of how a family tree begins and then branches out each generation.
+- *tree-like*: Nested data that branches out from nodes to maintain hierarchical relationships of data. Think of how a family tree begins and then branches out each generation.
 
 We will also work with a number of file types: 
 
