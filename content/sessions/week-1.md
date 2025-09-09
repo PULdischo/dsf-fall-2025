@@ -160,4 +160,4 @@ This hands-on workshop uses objects from the [Messinesi Photographs Collection](
 
 If you haven't already, download [OpenRefine] (https://openrefine.org/download) and ensure you have set up a [GitHub](https://github.com/) and downloaded the [GitHub Desktop client](https://github.com/apps/desktop).
 
-Identify what special data is missing from our dataset and/or your project.
+Identify what spatial data is missing from our dataset and/or your project.
