@@ -29,3 +29,11 @@ The following [VS Code extensions](https://code.visualstudio.com/docs/configure/
 ## Research Materials
 
 You will be provided with research materials so that we can collaborate and engage with varying tools. You are welcome to bring your own materials as well, or at the very least questions about your own project.
+
+**materials:**
+
+- [Vrysaki map](https://collections.visualresources.princeton.edu/Detail/objects/49422)
+- [Messinesi photographs](https://collections.visualresources.princeton.edu/Detail/collections/155)
+- [Photograph metadata](https://docs.google.com/spreadsheets/d/1vz_CAGkI6uHUDs2A5U6auAzxxVls_ulbuRFXydKnxeM/edit?usp=sharing)
+
+This hands-on workshop uses objects from the [Messinesi Photographs Collection](https://collections.visualresources.princeton.edu/Detail/collections/155) which is part of the [Homer A. Thompson Collection](https://collections.visualresources.princeton.edu/Detail/collections/58) house in [Visual Resources Collections](https://collections.visualresources.princeton.edu/) of Princeton University's Department of Art and Archaeology.
