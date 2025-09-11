@@ -7,7 +7,13 @@ Below are resources that can provide additional support during and after our wor
 
 ## Workshop Session Slideshows
 
-Coming soon!
+Week 1: An Introduction to Mapping and Spatial Data: [Google Slides](https://docs.google.com/presentation/d/1hbLpyYhrOcxiwE-VL7l--xF2AS4Wr16hh0b7PLpTAAQ/edit?usp=sharing) | [PDF]()
+
+Week 2: Working with Spatial Data
+
+Week 3: Prototyping and Telling Stories with Maps
+
+Week 4: Code Templates and Customization
 
 ## Git & GitHub
 

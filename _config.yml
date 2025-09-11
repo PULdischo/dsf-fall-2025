@@ -11,7 +11,7 @@
 # SITE SETTINGS
 #
 # title appears in the header
-title: Digital Scholarship Foundations Spring 2025
+title: Digital Scholarship Foundations Fall 2025
 # title-icon appears in the header to give some pizazz (leave blank for none)
 # choose from Bootstrap Icons in _includes/bootstrap-icons
 # find names on https://icons.getbootstrap.com/ (or look in "_includes/bootstrap-icons")
@@ -20,7 +20,7 @@ title-icon: code-slash
 # description appears in sidebar footer
 description: "DSF Static Website Curriculum"
 # keywords for meta tags used by search engines
-keywords: "workshops, websites, gh-pages, jekyll"
+keywords: "workshops, maps, gh-pages"
 # image for meta tags, will appear when sharing link on social media
 # featured-image: "/images/uidaho-workshop.jpg"
 

@@ -14,7 +14,7 @@ The following [VS Code extensions](https://code.visualstudio.com/docs/configure/
 - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - [Edit CSV](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv)
-- [Code Spell Checker(https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)]
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
 `GitHub:` [GitHub](https://github.com/) is a version control platform that enables collaboration and facilitates the simplification of static site generation through their [GitHub Pages](https://pages.github.com/) service.
 
