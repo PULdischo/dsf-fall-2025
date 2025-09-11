@@ -7,7 +7,7 @@ Below are resources that can provide additional support during and after our wor
 
 ## Workshop Session Slideshows
 
-Week 1: An Introduction to Mapping and Spatial Data: [Google Slides](https://docs.google.com/presentation/d/1hbLpyYhrOcxiwE-VL7l--xF2AS4Wr16hh0b7PLpTAAQ/edit?usp=sharing) | [PDF](https://github.com/PULdischo/dsf-fall-2025/blob/main/content/slideshows/week-1-intro.pdf)
+Week 1: An Introduction to Mapping and Spatial Data: [Google Slides](https://docs.google.com/presentation/d/1hbLpyYhrOcxiwE-VL7l--xF2AS4Wr16hh0b7PLpTAAQ/edit?usp=sharing) or [PDF](https://github.com/PULdischo/dsf-fall-2025/blob/main/content/slideshows/week-1-intro.pdf)
 
 Week 2: Working with Spatial Data
 
