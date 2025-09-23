@@ -11,7 +11,7 @@ topics: Georeferencing; geocoding; data structures
 - Learn how to effectively structure data for visualization.
 - Use OpenRefine to prepare data for visualization.
 - Learn how to create raster data through georeferencing.
-- Extra vector data from georeferenced map
+- Extra vector data from georeferenced map.
 
 ## Wrangling Data
 
@@ -52,7 +52,7 @@ As you modify your spreadsheet (.csv file), it may help to think about your data
 
 ### Cleaning your Data
 
-The idea of cleaning your data is a contested term, but many still find it useful to describe the process of addressing inconsistencies found in a a dataset. Katie Rawson and Trevor Muñoz's ["Against Cleaning"](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51#ch23) is great example of challenging the concept of cleaning and will also help you think more critically about how you gather and transform your research data. Whether you are cleaning or use "other terms that people use alongside “cleaning” (wrangling, munging, normalizing, casting)," you will come across some of the following issues that are difficult to spot with the human eye and that may cause misleading maps or misrepresentations of your data:
+The idea of cleaning your data is a contested term, but many still find it useful to describe the process of addressing inconsistencies found in a dataset. Katie Rawson and Trevor Muñoz's ["Against Cleaning"](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51#ch23) explains the drawbacks of viewing your data as something that needs to be "cleaned." The article will also help you think more critically about how you gather and transform your research data. Whether you are cleaning or use "other terms that people use alongside “cleaning” (wrangling, munging, normalizing, casting)," you will come across some of the following issues in your data that are difficult to spot with the human eye and that may cause misleading maps or misrepresentations of your data:
 
 - Misspellings
 - White space
@@ -62,7 +62,7 @@ The idea of cleaning your data is a contested term, but many still find it usefu
 
 ## Georectification/Georeference
 
-Historical and scanned physical maps that are not associated with a coordinate grid will limit our ability use such a map in a digital mapping project. While some may work with an image altering platform like Adobe Photoshop to make meaning of these maps, such a project will not have transferable data nor be readable by a mapping platform. A solution is to use a georectification or georeferencing tool to bind your image to a coordinate system. We will use the tool [MapWarper](https://mapwarper.net/) to georectify our map. This process will transform our static image into spatial data and create raster data that will allow us to further our mapping project. With this process you can:
+Historical and scanned physical maps that are not associated with a coordinate grid will limit your ability use such a map in a digital mapping project. While some may work with an image altering platform like Adobe Photoshop to make meaning of these maps, such a project will not have transferable data nor be readable by a mapping platform. A solution is to use a georectification or georeferencing tool to bind your image to a coordinate system. We will use the tool [MapWarper](https://mapwarper.net/) to georectify our map. This process will transform our static image into spatial data and create raster data that will allow us to further our mapping project. With this process you can:
 
 - Create a basemap and then overlay other data.
 - Extract additional historical vector data to further spatial analysis and interpretation.
@@ -124,16 +124,67 @@ If you are manually copying or entering coordinates, be careful not to transpose
 Geocoding: a computational process of transforming a description of a location, such as an address or place name, into geographic coordinates. 
 
 Coordinate format: You will want your coordinates in decimals rather than degrees. Below are examples for Firestone Library:
-    Decimals: 40.34972638362372, -74.6574238318438
-    Degrees: 40°20'59.013", -74°39'26.7264"
+
+- Decimals: 40.34972638362372, -74.6574238318438
+- Degrees: 40°20'59.013", -74°39'26.7264"
 
 ### Geocoding Workflow
 
-Coming Soon!
+#### Step 1: Open Google Earth
+
+Access the [Google Earth web tool](https://earth.google.com/web). If you are having trouble with the web tool, you can download [Google Earth desktop pro](https://earth.google.com/intl/earth/versions/#earth-pro) as an alternative.
+
+#### Step 2: Upload Basemap
+
+1. Copy `tiles url` (under map services) in MapWarper.
+2. In Google Earth, click `+` and then select `title overlay`.
+3. In the left popup box:
+    - Copy and past MapWarper url to `overlay URL pattern`.
+    - Add a title for your map.
+    - Click `view`.
+4. Zoom in to area to make sure map is properly displaying.
+
+#### Step 3: View Troubleshooting
+
+If your georeferenced map is not showing properly, review possible default view settings in Google Earth that may obscure your map.
+
+1. Click `view` in top navigation.
+2. Click `layers`.
+3. Toggle different features and make sure different 3D objects are off.
+
+#### Step 4: Find Coordinates
+
+Because we are dealing with a historic map of a neighborhood that no longer exists, we cannot use addresses and therefore cannot use a geocoding tool to automate the collection of coordinates for our research objects.
+
+1. At the left navigation window of Google Earth, click the folder icon.
+2. Name the folder `object points` and then exit the popup.
+3. Find and click `add placemark` button.
+4. Click the point on the georeferenced map that you would like to add to the map.
+5. Title the new placemark. If you are following along, add the placemark number from the original map.
+6. Repeat until you have marked all research objects on the georeferenced map.
+
+#### Step 5: Download and Review KML File
+
+1. Download KML file from Google Earth. Click `File` in the navigation and then click `export as KML file`.
+2. Open VS Code, then click `Open File` and find the downloaded KML file. It should be in your download folder.
+3. The KML file is more generally an XML file which follows a tree-like structure. This is all the data from Google Earth. We're just interested in points so scroll down to the `folder` element which looks like `<folder>` and then find `<placemark>`.
+
+#### Step 6: Extract Coordinates from KML File
+
+1. Find the title of your first object under `<placemark>` and within the `<name></name>` element.
+2. Then, within that same `<placemark>` element, find the `<latitude>` and `<longitude>` elements. Copy the corresponding latitude and longitude to the corresponding columns in your spreadsheet. Avoid copying unnecessary white space.
+3. Repeat for each object. Be mindful of which element nesting you are in so that you copy the correct coordinates.
+
+While we are doing this manually, you can perform this programmatically by writing a short script to find each lat and long in the KML file and extract and write the coordinates into a csv. This is more advanced and beyond the scope of this series.
+
+#### Step 7: Review CSV
+
+1. Upload your updated CSV to OpenRefine
+2. Facet your coordinate columns to see if there are any
 
 ## Before Next Session
 
 1. If you have not already, create a [GitHub](https://github.com/) account.
 2. Complete addition of coordinates to your dataset.
-3. Complete another further wrangling of your data to ensure it will be useable in a mapping platform
+3. Complete further wrangling of your data to ensure it will be useable in a mapping platform.
 4. Attend office hours if you would like. These will be held September 29 and October 1 from 10:30am-noon. This is a great opportunity to bring questions or co-work on your project with other participants.
