@@ -18,7 +18,7 @@ title: Digital Scholarship Foundations Fall 2025
 # some options: code-slash file-code gear tools lightblub book bookmark-star
 title-icon: code-slash
 # description appears in sidebar footer
-description: "DSF Static Website Curriculum"
+description: "DSF Digital Mapping Curriculum"
 # keywords for meta tags used by search engines
 keywords: "workshops, maps, gh-pages"
 # image for meta tags, will appear when sharing link on social media
@@ -29,7 +29,7 @@ author: bryanwinston
 # year or date published, displayed in sidebar
 publication_year: 2025
 # location of code, the full url to your github repository
-source-code: https://github.com/PULdischo/dsf-static-web
+source-code: https://github.com/PULdischo/dsf-fall-2025
 # content license (typically "cc by-sa"), displayed in sidebar
 content_license: "CC BY-SA"
 # URL to the content license

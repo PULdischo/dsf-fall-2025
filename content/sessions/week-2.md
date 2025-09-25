@@ -11,7 +11,7 @@ topics: Georeferencing; geocoding; data structures
 - Learn how to effectively structure data for visualization.
 - Use OpenRefine to prepare data for visualization.
 - Learn how to create raster data through georeferencing.
-- Extra vector data from georeferenced map.
+- Extract vector data from georeferenced map.
 
 ## Wrangling Data
 
@@ -137,7 +137,7 @@ Access the [Google Earth web tool](https://earth.google.com/web). If you are hav
 #### Step 2: Upload Basemap
 
 1. Copy `tiles url` (under map services) in MapWarper.
-2. In Google Earth, click `+` and then select `title overlay`.
+2. In Google Earth, click `+` and then select `tile overlay`.
 3. In the left popup box:
     - Copy and past MapWarper url to `overlay URL pattern`.
     - Add a title for your map.
