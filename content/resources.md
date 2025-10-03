@@ -11,7 +11,7 @@ Week 1: An Introduction to Mapping and Spatial Data: [Google Slides](https://doc
 
 Week 2: Working with Spatial Data: [Google Slides](https://docs.google.com/presentation/d/1cLfhrftJ5E05wAxVKqOk8NZF00oBbb-8Jfeup4PuYls/edit?usp=sharing)
 
-Week 3: Prototyping and Telling Stories with Maps
+Week 3: Prototyping and Version Control
 
 Week 4: Code Templates and Customization
 

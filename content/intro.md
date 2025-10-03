@@ -40,7 +40,7 @@ Session Type | Date | Title | Key Themes
 Workshop | September 10 | An Introduction to Mapping and Spatial Data | Text editors; file types; spatial data |
 Workshop | September 24 | Working with Spatial Data | Georeferencing; geocoding; data structures
 Office Hours (optional) | September 29 and October 1 | Office Hours (optional) | Work on your project, set up development environment, and troubleshoot issues
-Workshop | October 8 | Prototyping and Telling Stories with Maps | Version control; mapping tools; spatial stories
+Workshop | October 8 | Prototyping and Version Control| Version control; mapping tools; spatial stories
 Workshop | October 22 | Code Templates and Customization | Customization; leaflet; web publishing
 {:.table .table-bordered}
 
