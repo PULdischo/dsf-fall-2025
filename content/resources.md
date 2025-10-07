@@ -9,9 +9,9 @@ Below are resources that can provide additional support during and after our wor
 
 Week 1: An Introduction to Mapping and Spatial Data: [Google Slides](https://docs.google.com/presentation/d/1hbLpyYhrOcxiwE-VL7l--xF2AS4Wr16hh0b7PLpTAAQ/edit?usp=sharing) or [PDF](https://github.com/PULdischo/dsf-fall-2025/blob/main/content/slideshows/week-1-intro.pdf)
 
-Week 2: Working with Spatial Data: [Google Slides](https://docs.google.com/presentation/d/1cLfhrftJ5E05wAxVKqOk8NZF00oBbb-8Jfeup4PuYls/edit?usp=sharing)
+Week 2: Working with Spatial Data: [Google Slides](https://docs.google.com/presentation/d/1cLfhrftJ5E05wAxVKqOk8NZF00oBbb-8Jfeup4PuYls/edit?usp=sharing) or [PDF](https://github.com/PULdischo/dsf-fall-2025/blob/main/content/slideshows/week-2-spatial-data.pdf)
 
-Week 3: Prototyping and Version Control
+Week 3: Prototyping and Version Control: [Google Slides](https://docs.google.com/presentation/d/1ufDTp-wZKvN0RS7vJzm3qTbSAJRBO6gH4lZfX7jefTA/edit?usp=sharing)
 
 Week 4: Code Templates and Customization
 
