@@ -63,7 +63,8 @@ If your data does not meet all of the requirements, you should conform as needed
 
 ### Step 2: Load Data
 
-Drag and drop your .csv file into the Palladio window. Palladio also provides two other options: Copy and paste your data directly from your spreadsheet or enter a URL that points to your data or repository.
+1. Download our [completed dataset](https://drive.google.com/file/d/15Pkkc98hWyVEIws0idDW9jlQMqIJE9qN/view?usp=sharing) with the required "Coordinates" column.
+2. Drag and drop your .csv file into the Palladio window. Palladio also provides two other options: Copy and paste your data directly from your spreadsheet or enter a URL that points to your data or repository.
 
 ### Step 3: Verify Data
 
