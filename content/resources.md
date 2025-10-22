@@ -13,7 +13,7 @@ Week 2: Working with Spatial Data: [Google Slides](https://docs.google.com/prese
 
 Week 3: Prototyping and Version Control: [Google Slides](https://docs.google.com/presentation/d/1ufDTp-wZKvN0RS7vJzm3qTbSAJRBO6gH4lZfX7jefTA/edit?usp=sharing) or [PDF](https://github.com/PULdischo/dsf-fall-2025/blob/main/content/slideshows/week-3-prototyping.pdf)
 
-Week 4: Code Templates and Customization
+Week 4: Code Templates and Customization: [Google Slides](https://docs.google.com/presentation/d/1mudcGHBZa22wJN5d1LvnvxxRsA-0CPIxcT6JkErK3-o/edit?usp=sharing) or [PDF](https://github.com/PULdischo/dsf-fall-2025/blob/main/content/slideshows/week-4-customization.pdf)
 
 ## Git & GitHub
 
