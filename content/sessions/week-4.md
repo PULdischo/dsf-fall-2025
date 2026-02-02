@@ -115,7 +115,7 @@ Our HTML body contains:
 - a division that establishes where the map is on the page: `<div id="map"></div>`
 - leaflet functions that set the parameters of the map, such as:
     - `L.map()`: establish map and basic parameters like center and zoom level
-    - `control.Layer`: creates switch that then allows you to switch between layers 
+    - `L.control.layers`: creates switch that then allows you to switch between layers 
     - `L.tileLayer()`: brings in raster layers (pixel based images) like a default basemap or your georeferenced map.
     - `L.marker()`: create markers on your map
 
